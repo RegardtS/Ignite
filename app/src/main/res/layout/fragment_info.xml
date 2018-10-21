@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are a church community of teens, young-adults and youth-leaders, who journey together every year to find new meaning and build community. We want to live a faith and spirituality that’s alive, growing and meaningful. Our space is one of multi-culture and age groups coming together to form one active community.\n\nThis year our Theme is Digging Deeper 2018, we want to dig deeper into our understanding of the Bible, our Christian faith and what it means to be spiritual in 2018.\nWe have a service each Sunday at 18:00 in Sonstraal Church on the corner of Hebron and Tulip street.\n(for more on all our events, click on the Events button for more information)\n\nJoin our Worship team, get free music lessons from our Band-community. Learn to play the instrument you want and become part of our band, serving through worship.\n\nClick on the Band  button to get more information on our band.\n\nEmail us on:\nContact us on:\n\nService time: Sunday 18:00\nGrab a coffee with us after our service.\n\nCome join in, get active in our community we welcome each and all."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+</ScrollView>
