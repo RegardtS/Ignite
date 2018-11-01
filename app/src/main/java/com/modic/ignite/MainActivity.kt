@@ -1,22 +1,23 @@
 package com.modic.ignite
 
 import android.support.design.widget.TabLayout
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
-import android.support.v4.view.ViewPager
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+import com.modic.ignite.ui.band.BandFragment
+import com.modic.ignite.ui.events.EventFragment
+import com.modic.ignite.ui.info.InfoFragment
+import com.modic.ignite.ui.media.MediaFragment
+import com.modic.ignite.ui.social_media.SocialMediaFragment
+import com.modic.ignite.ui.young_adults.YoungAdultsFragment
 
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_main.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -44,6 +45,12 @@ class MainActivity : AppCompatActivity() {
 
         override fun getItem(position: Int): Fragment {
             return when(position){
+                0 -> InfoFragment()
+                1 -> EventFragment()
+                2 -> YoungAdultsFragment()
+                3 -> SocialMediaFragment()
+                4 -> MediaFragment()
+                5 -> BandFragment()
                 6 -> ShareWallFragment()
                 else -> PlaceholderFragment.newInstance(position)
             }
@@ -58,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                                   savedInstanceState: Bundle?): View? {
 
             val layoutInt = when(arguments?.getInt(ARG_SECTION_NUMBER)){
-                0 -> R.layout.fragment_info
+                0 -> R.layout.fragment_events
                 1 -> R.layout.fragment_events
                 2 -> R.layout.fragment_events
                 3 -> R.layout.fragment_events

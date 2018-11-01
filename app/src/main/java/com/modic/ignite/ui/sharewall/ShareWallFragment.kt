@@ -32,7 +32,6 @@ class  ShareWallFragment : Fragment() {
         setupRecyclerView()
         setupVM()
 
-
         share_text_et.setOnEditorActionListener { textView, action, _ ->
             var handled = false
             if (action == EditorInfo.IME_ACTION_SEND) {

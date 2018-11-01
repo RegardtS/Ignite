@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To listen to our weekly themed podcasts on spiritual and contextual issues click on the Podcast button to get some food for thought.\n\nTo watch videos from recent events, videos from our band or videos related to our theme and Journey, click on the Videos button.\n\nTo read articles that may give you something to think about on contextual related issues, click on the Articles\n\nTo view photos of our recent events, band or community building programs, click on the Gallery button."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+</ScrollView>

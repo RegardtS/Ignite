@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "846352388047",
+    "firebase_url": "https://zass.firebaseio.com",
+    "project_id": "firebase-zass",
+    "storage_bucket": "firebase-zass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846352388047:android:0fd01c123070c7d5",
+        "android_client_info": {
+          "package_name": "com.modic.ignite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846352388047-3mosqkktbhe3sem1l68seraglse8mfde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.modic.ignite",
+            "certificate_hash": "26faaf04ccfd9eca48d2def2daf45978f6419aa0"
+          }
+        },
+        {
+          "client_id": "846352388047-a2978302dhr16i0285l1smfj2bdjq3jt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.modic.ignite",
+            "certificate_hash": "a471f053c88582f7379df870c1b392e180b350f0"
+          }
+        },
+        {
+          "client_id": "846352388047-gqgt69n64ft4k20r9tl3d4ob1dluvrip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW9E9S4DyB43_5-Kix7S7QQCpC920qtDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846352388047-gqgt69n64ft4k20r9tl3d4ob1dluvrip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our band is a growing community, we love to serve through song and praise. If you want to join our band for any instrument, please contact us to become part of the group:\n\nContact info:\n\nIf you want to learn how to play an instrument or get some vocal coaching, please join our Weekly Worship Warehouse gathering. Email us with your name, number, the instrument you want help with and a possible time slot we can assist you with.\n\nEmail address:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+</ScrollView>
